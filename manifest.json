@@ -1,0 +1,12 @@
+{
+	"name": "Gmail Color Changer",
+	"description": "Change color of gamil alternate mail using this Extension",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"action": {
+		"default_title": "Gmail Color Changer",
+		"default_popup": "popup.html"
+	},
+	"permissions": ["activeTab", "storage", "scripting"],
+	"host_permissions": ["https://*/*", "http://*/*"]
+}
