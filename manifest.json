@@ -5,8 +5,16 @@
 	"manifest_version": 3,
 	"action": {
 		"default_title": "Gmail Color Changer",
-		"default_popup": "popup.html"
+		"default_popup": "popup.html",
+		"default_icon": {
+			"32": "/icons/icon32x32.png",
+			"144": "/icons/icon144x144.png"
+		}
 	},
 	"permissions": ["activeTab", "storage", "scripting"],
-	"host_permissions": ["https://*/*", "http://*/*"]
+	"host_permissions": ["https://*/*", "http://*/*"],
+	"icons": {
+		"32": "/icons/icon32x32.png",
+		"144": "/icons/icon144x144.png"
+	}
 }
